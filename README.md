@@ -1,16 +1,19 @@
-# React + Vite
+# Crime Reporting System
+A responsive ReactJS web application for reporting crimes and viewing reports.
+## Features
+- ReactJS frontend
+- Responsive design
+- Multiple pages
+## Technologies Used
+- ReactJS
+- CSS
+- React Router
+<img width="1352" height="621" alt="Screenshot 2026-05-29 165927" src="https://github.com/user-attachments/assets/49c29de3-f697-4226-8c1e-178530902165" />
+<img width="1360" height="622" alt="Screenshot 2026-05-29 170016" src="https://github.com/user-attachments/assets/ad710517-a9bb-4717-a4a3-cb9f29d887d0" />
+<img width="1360" height="627" alt="Screenshot 2026-05-29 170008" src="https://github.com/user-attachments/assets/82fc84b3-71da-4d6e-9c26-baa0700b2ca2" />
+<img width="1360" height="623" alt="Screenshot 2026-05-29 165956" src="https://github.com/user-attachments/assets/293d09d3-9680-44c1-8247-1cfc65df0be1" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+npm install
+npm run dev
