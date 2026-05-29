@@ -1,21 +1,33 @@
 function Reports() {
+  const reports = [
+    {
+      id: 1,
+      type: "Theft",
+      location: "Beirut",
+      status: "Pending",
+    },
+    {
+      id: 2,
+      type: "Assault",
+      location: "Tripoli",
+      status: "Resolved",
+    },
+    {
+      id: 3,
+      type: "Vandalism",
+      location: "Saida",
+      status: "Under Investigation",
+    },
+  ];
   return (
     <div className="reports-container">
-      <div className="card">
-        <h2>Theft Report</h2>
-        <p>Location: Beirut</p>
-        <p>Status: Pending</p>
-      </div>
-      <div className="card">
-        <h2>Assault Report</h2>
-        <p>Location: Tripoli</p>
-        <p>Status: Resolved</p>
-      </div>
-      <div className="card">
-        <h2>Vandalism Report</h2>
-        <p>Location: Saida</p>
-        <p>Status: Under Investigation</p>
-      </div>
+      {reports.map((report) => (
+        <div className="card" key={report.id}>
+          <h2>{report.type}</h2>
+          <p>Location: {report.location}</p>
+          <p>Status: {report.status}</p>
+        </div>
+      ))}
     </div>
   );
 }
