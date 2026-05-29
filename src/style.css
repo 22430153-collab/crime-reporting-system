@@ -55,7 +55,8 @@ nav a:hover::after{
   text-align:center;
   background:
   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-  url("https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1974&auto=format&fit=crop")
+  url("C:\Users\dell\Desktop\Project1-Phase2-SalahEldeenAlkhatib\ph2\src\assets\backgroundpic.jpg") no-repeat
+
   center/cover;
 }
 .hero h1{
