@@ -55,7 +55,6 @@ nav a:hover::after{
   text-align:center;
   background:
   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-  url("C:\Users\dell\Desktop\Project1-Phase2-SalahEldeenAlkhatib\ph2\src\assets\backgroundpic.jpg") no-repeat
 
   center/cover;
 }
